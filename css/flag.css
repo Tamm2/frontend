@@ -122,27 +122,55 @@ body{
 .rectangle-upper-left{
     width:80px;
     height:120px;
-    background-color:#000000;
-    transform-origin: 260px 80px;
+    transform-origin: calc(50% + 220px) 50%;
     transform: rotate(0.59rad);
+    display: flex;
+    justify-content: space-between;
 }
 
 .rectangle-lower-left{
+    margin-top:-120px;
     width:80px;
     height:120px;
-    background-color:#000000;
-    transform-origin: 260px -80px;
+    transform-origin: calc(50% + 220px) 50%;
     transform: rotate(-0.59rad);
+    display: flex;
+    justify-content: space-between;
 }
 
 .rectangle-upper-right{
     width:80px;
     height:120px;
-    background-color:#000000;
+    transform-origin: calc(50% - 220px) 50%;
+    transform: rotate(-0.59rad);
+    display: flex;
+    justify-content: space-between;
 }
 
 .rectangle-lower-right{
+    margin-top: -120px;
     width:80px;
     height:120px;
+    transform-origin: calc(50% - 220px) 50%;
+    transform: rotate(0.59rad);
+    display: flex;
+    justify-content: space-between;
+}
+
+.long-rectangle{
+    width:20px;
+    height:120px;
     background-color:#000000;
+}
+
+.short-rectangle{
+    width:20px;
+    height:55px;
+    background-color:#000000;
+}
+
+.short-rectangle-wrapper{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
