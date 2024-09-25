@@ -1,1 +1,148 @@
+body{
+    color:red;
+    background-color: gray;
+}
 
+.japan{
+    width:500px;
+    height:300px;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-circle{
+    width:180px;
+    height:180px;
+    background-color: #d7003a;
+    border-radius: 100%;
+}
+
+.UAE{
+    margin-top: 50px;
+    width:600px;
+    height:300px;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-rectangle{
+    width:150px;
+    height:300px;
+    background-color: #ff0000;
+}
+
+.green-rectangle{
+    width:450px;
+    height:100px;
+    background-color: #00732f;
+}
+
+.white-rectangle{
+    width:450px;
+    height:100px;
+    background-color:#ffffff;
+
+}
+
+.black-rectangle{
+    width:450px;
+    height:100px;
+    background-color:#000000;
+}
+
+.South-Korea{
+    margin-top: 50px;
+    width:720px;
+    height:480px;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.korea-circle{
+    width:240px;
+    height:240px;
+    transform: rotate(0.59rad);
+    position:relative;
+}
+
+.big-red-circle{
+    width:240px;
+    height:120px;
+    background-color: #cd2e3a;
+    border-radius: 50% / 100% 100% 0 0;
+    
+}
+
+.big-blue-circle{
+    width:240px;
+    height:120px;
+    background-color: #0047a0;
+    border-radius: 50% / 0 0 100% 100%;
+}
+
+.mini-red-circle{
+    position: absolute;
+    top:calc(50% - 60px);
+    width:120px;
+    height:120px;
+    background-color: #cd2e3a;
+    border-radius: 100%;
+    
+}
+
+.mini-blue-circle{
+    position: absolute;
+    top:calc(50% - 60px);
+    right:0%;
+    width:120px;
+    height:120px;
+    background-color: #0047a0;
+    border-radius: 100%;
+    
+}
+
+.korea-rectangle-left{
+    margin-right: 60px;
+    width:80px;
+    height:120px;
+}
+
+.korea-rectangle-right{
+    margin-left: 60px;
+    width:80px;
+    height:120px;
+}
+
+.rectangle-upper-left{
+    width:80px;
+    height:120px;
+    background-color:#000000;
+    transform-origin: 260px 80px;
+    transform: rotate(0.59rad);
+}
+
+.rectangle-lower-left{
+    width:80px;
+    height:120px;
+    background-color:#000000;
+    transform-origin: 260px -80px;
+    transform: rotate(-0.59rad);
+}
+
+.rectangle-upper-right{
+    width:80px;
+    height:120px;
+    background-color:#000000;
+}
+
+.rectangle-lower-right{
+    width:80px;
+    height:120px;
+    background-color:#000000;
+}
